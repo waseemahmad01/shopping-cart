@@ -1,0 +1,35 @@
+.navbar{
+    height: 70px;
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: none;
+}
+.logo{
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.li{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
+}

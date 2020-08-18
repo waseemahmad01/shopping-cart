@@ -1,0 +1,64 @@
+.container{
+    padding: 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 10px #000000;
+}
+.container .image{
+    width: 150;
+    height: 200px;
+    overflow: hidden;
+}
+.container .image img{
+    width: 100%;
+    height: 100%;
+}
+.container .about h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: blue;
+    text-transform: uppercase;
+}
+.container .about p{
+    font-size: 18px;
+    color: #808080;
+    line-height: 30px;
+}
+.container .controls{
+    display: flex;
+    flex-direction: column;
+}
+.container .controls .incart{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.container .controls .incart i{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.container .controls .incart .span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .controls .cart{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 26px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.container .controls .cart:hover{
+    background-color: rgb(20, 20, 180);
+}
